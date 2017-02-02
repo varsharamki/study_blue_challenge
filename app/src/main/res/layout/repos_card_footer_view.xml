@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="#252965"
+    android:layout_height="200dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:text="Created At:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/updated_at_txt"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold" />
+        <TextView
+            android:text="Updated At:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/created_at_txt"
+            android:textColor="@android:color/white"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="normal|bold" />
+        <TextView
+            android:text="Pushed At:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/_at_txt"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/white"
+
+            android:textStyle="normal|bold" />
+        </LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="0.7"
+    android:background="@drawable/border"
+
+    android:id="@+id/more_details"
+    >
+    <TextView
+        android:text="More Details"
+        android:id="@+id/moredetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/white"
+
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+      />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/right"
+        android:layout_toRightOf="@id/moredetails"
+        android:layout_centerInParent="true"
+
+        />
+</RelativeLayout>
+</LinearLayout>

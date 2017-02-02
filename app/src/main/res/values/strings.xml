@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">StudyBlueCodingChallenge</string>
+    <string name="created_at">Created At: </string>
+    <string name="updated_at">Updated At: </string>
+    <string name="pushed_at">Pushed At: </string>
+    <string name="name">Name: </string>
+
+    <string name="language">Language: </string>
+    <string name="default_branch">Defualt Branch:</string>
+    <string name="watchers">Watchers: </string>
+    <string name="open_issues">Open Issues: </string>
+    <string name="forks">Forks: </string>
+    <string name="open_issues_count">Open Issues Count: </string>
+    <string name="mirror_url">Mirror URL: </string>
+    <string name="forks_count">Forks Count: </string>
+    <string name="has_pages">Has Pages: </string>
+    <string name="has_downloads">Has Downloads: </string>
+    <string name="has_wiki">Has Wiki: </string>
+    <string name="has_issues">Has Issues: </string>
+    <string name="watchers_count">Watchers Count: </string>
+    <string name="stargazers_count">Stargazers Count: </string>
+    <string name="size">Size: </string>
+    <string name="homepage">Homepage: </string>
+    <string name="svn_url">SVN URL: </string>
+    <string name="clone_url">Clone URL:</string>
+    <string name="ssh_url">SSH URL:</string>
+    <string name="git_url">Git URL: </string>
+    <string name="deployments_url">Deployments URL: </string>
+    <string name="releases_url">Releases URL: </string>
+    <string name="labels_url">Labels URL: </string>
+    <string name="notifcations_url">Notifications URL: </string>
+    <string name="milestones_url">Milestones URL: </string>
+    <string name="pulls_url">Pulls URL: </string>
+    <string name="issues_url">Issues URL: </string>
+    <string name="downloads_url">Downloads URL: </string>
+    <string name="archive_url">Archive URL: </string>
+    <string name="merges_url">MErges URL: </string>
+    <string name="compare_url">Compare URL: </string>
+    <string name="contents_url">Contents URL: </string>
+    <string name="issue_comment_url">Issue Comment URL: </string>
+    <string name="comments_url">Comments URL: </string>
+    <string name="git_commits_url">Git Commits URL: </string>
+    <string name="commits_url">Commits URL: </string>
+    <string name="subscription_url">Subscription URL: </string>
+    <string name="subscribers_url">Subcribers URL: </string>
+    <string name="contributors_url">Contributors URL: </string>
+    <string name="stargazers_url">Stargazers URL: </string>
+    <string name="languages_url">Languages URL: </string>
+    <string name="statuses_url">Statuses URL: </string>
+    <string name="trees_url">Trees URL: </string>
+    <string name="git_refs_url">Git Refs URL: </string>
+    <string name="git_tags_url">Git Tags URL: </string>
+    <string name="blobs_url">Blobs URL: </string>
+    <string name="tags_url">Tags URL: </string>
+
+    <string name="branches_url">Branches URL: </string>
+    <string name="assignees_url">Assignees URL: </string>
+    <string name="issue_events_url">Issue Events URL: </string>
+    <string name="hooks_url">Hooks URL: </string>
+    <string name="teams_url">Teams URL: </string>
+    <string name="collaborators_url">Collaborators URL: </string>
+    <string name="keys_url">Keys URL: </string>
+
+    <string name="forks_url">Forks </string>
+    <string name="url">URL: </string>
+    <string name="fork">Fork: </string>
+    <string name="description">Description: </string>
+    <string name="html_url">Html URL:  </string>
+
+    <string name="owner_login">Owner Login: </string>
+    <string name="owner_id">Owner ID: </string>
+    <string name="owner_url">URL: </string>
+
+    <string name="owner_html_url">Html URL: </string>
+    <string name="followers_url">Followers URL: </string>
+    <string name="following_url">Following URL: </string>
+    <string name="gists_url">Gists URL: </string>
+    <string name="starred_url">Starred URL:</string>
+    <string name="subscriptions_url">Subscriptions URL: </string>
+    <string name="organizations_url">Organizations URL: </string>
+    <string name="repos_url">Repos URL: </string>
+
+    <string name="events_url">Events URL: </string>
+    <string name="received_events_url">Received Events URL: </string>
+    <string name="type">Type: </string>
+    <string name="site_admin">Site Admin:</string>
+
+</resources>
