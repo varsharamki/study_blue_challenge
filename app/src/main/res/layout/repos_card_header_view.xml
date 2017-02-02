@@ -1,36 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:background="@drawable/gradient"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/header_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient"
 
-    android:layout_height="wrap_content">
+    android:orientation="vertical">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/title_txt"
-        android:textAppearance="@style/TextAppearance.AppCompat.Title"
-        android:textStyle="normal|bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:textColor="#4f0000"
-       />
+        android:textStyle="normal|bold"
+        tools:text="@string/default_title"
+
+        />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/description_txt"
-        android:textStyle="normal|bold"
-        android:textColor="#4f0000"
-
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
-
-    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/url_txt"
-        android:textStyle="normal|bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#4f0000"
+        android:textStyle="normal|bold"
 
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        tools:text="@string/default_description" />
+
+    <TextView
+        android:id="@+id/url_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#4f0000"
+        android:textStyle="normal|bold"
+        tools:text="@string/default_url" />
 </LinearLayout>

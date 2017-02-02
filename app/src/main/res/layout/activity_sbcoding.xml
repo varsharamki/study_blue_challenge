@@ -4,15 +4,14 @@
     android:id="@+id/activity_sbcoding"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-android:background="@color/cardview_light_background"
+    android:background="@color/cardview_light_background"
     tools:context="coding.studyblue.com.studybluecodingchallenge.view.SBCodingActivity">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/sbRecyclerView"
-        android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:clipToPadding="false"
-        android:scrollbars="vertical"
         android:scrollbarAlwaysDrawVerticalTrack="true"
-        />
+        android:scrollbars="vertical" />
 </LinearLayout>

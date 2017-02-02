@@ -1,6 +1,8 @@
 package coding.studyblue.com.studybluecodingchallenge.model;
 
-public class Ocramius {
+import java.io.Serializable;
+
+public class Ocramius{
 
 
     private long id;
@@ -109,9 +111,12 @@ public class Ocramius {
     private long open_issues;
 
     private long watchers;
-  private String default_branch;
+    private String default_branch;
 
-    Ocramius(){};
+    Ocramius() {
+    }
+
+    ;
 
 
     public long getId() {
@@ -597,6 +602,7 @@ public class Ocramius {
         this.contents_url = contentsUrl;
         return this;
     }
+
     public String getCompare_url() {
         return compare_url;
     }

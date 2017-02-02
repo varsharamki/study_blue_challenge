@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/team_card"
-    android:layout_height="wrap_content"
     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:layout_margin="10dp"
     app:cardCornerRadius="@dimen/cardCornerRad">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
+
         <include
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
             layout="@layout/repos_card_header_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
 
             />
-    <include
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        layout="@layout/repos_card_body_view"
 
-       />
-    <include
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        layout="@layout/repos_card_footer_view"
-        />
+        <include
+            layout="@layout/repos_card_body_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <include
+            layout="@layout/repos_card_footer_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
     </LinearLayout>
-    </android.support.v7.widget.CardView>
+</android.support.v7.widget.CardView>
